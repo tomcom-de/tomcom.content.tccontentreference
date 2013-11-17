@@ -8,8 +8,6 @@
 
     <includeDependencies package="." />
 
-    <i18n:registerTranslations directory="locales" />
-
     <!-- ##Static resource -->
     <include package="plone.resource" file="meta.zcml"/>
     <plone:static
