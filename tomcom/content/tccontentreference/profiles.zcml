@@ -10,7 +10,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="tccontentreference"
+      title="tomcom.content.tccontentreference"
       directory="profiles/default"
       description="A content element wich references to another content element and shows the view of the referenced content."
       provides="Products.GenericSetup.interfaces.EXTENSION"
