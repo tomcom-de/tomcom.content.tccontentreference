@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '4.3.0.2'
+version = '4.3.0.3'
 
 tests_require = [
     'plone.app.testing',
@@ -9,7 +9,7 @@ tests_require = [
 
 setup(name='tomcom.content.tccontentreference',
       version=version,
-      description='Little helpers',
+      description='',
       long_description=open("README.rst").read() + '\n' +
                        open('CHANGES.rst').read(),
       classifiers=[
