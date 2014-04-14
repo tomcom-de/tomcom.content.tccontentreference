@@ -71,7 +71,7 @@ class TCContentReference(ATCTContent):
 
     implements(ITCContentReference)
 
-    meta_type = 'ITCContentReference'
+    meta_type = 'TCContentReference'
     _at_rename_after_creation = True
 
     schema = TCContentReference_schema
