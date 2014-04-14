@@ -9,12 +9,11 @@ tests_require = [
 
 setup(name='tomcom.content.tccontentreference',
       version=version,
-      description='',
+      description='Little helpers',
       long_description=open("README.rst").read() + '\n' +
                        open('CHANGES.rst').read(),
       classifiers=[
         'Framework :: Plone',
-        'Framework :: Plone :: 4.3',
         'Programming Language :: Python',
         'Topic :: Software Development :: Libraries :: Python Modules',
         ],
