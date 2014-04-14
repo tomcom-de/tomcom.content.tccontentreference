@@ -9,7 +9,7 @@ tests_require = [
 
 setup(name='tomcom.content.tccontentreference',
       version=version,
-      description='Little helpers',
+      description='',
       long_description=open("README.rst").read() + '\n' +
                        open('CHANGES.rst').read(),
       classifiers=[

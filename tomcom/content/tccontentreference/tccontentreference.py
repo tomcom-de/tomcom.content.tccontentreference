@@ -61,8 +61,7 @@ TCContentReference_schema.changeSchemataForField('language', 'settings')
 ##/code-section HEAD
 
 class ITCContentReference(Interface):
-    """Marker interface for .stammdaten.Stammdaten
-    """
+    """ """
 
 class TCContentReference(ATCTContent):
     """
@@ -96,7 +95,6 @@ class TCContentReference(ATCTContent):
         return string_
 
 registerType(TCContentReference, PROJECTNAME)
-# end of class TCBlog
 
 ##code-section module-footer #fill in your manual code here
 ##/code-section module-footer
